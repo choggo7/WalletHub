@@ -1,0 +1,38 @@
+@media screen and (max-width: 664px) {
+  nav ul li {
+    font-size: 15pt;
+    line-height: 18pt;
+  }
+  header h1 {
+    font-size: 53pt;
+    line-height: 64pt;
+    top: 1rem;
+    left: 6rem;
+  }
+  section h2{
+      font-size: 18pt;
+      line-height: 21pt;
+  }
+  section .card .card-head .card-title{
+      font-size: 17pt;
+      line-height: 20pt;
+  }
+  section .card .card-body {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1rem 0rem;
+    gap: 3rem;
+    padding-bottom: 2.5rem;
+}
+  section .card .card-head .card-rating{display: none;}
+  section .card .card-action .card-approval p{display: none;}
+  section .card .card-body .card-content ul li{font-size: 15pt;line-height: 20pt;}
+  section .card .card-body button{font-size: 15pt;line-height: 24pt;padding: .9rem;}
+}
+
+@media screen and (max-width: 600px) {
+  nav ul li {
+    font-size: 15pt;
+    line-height: 18pt;
+  }
+}

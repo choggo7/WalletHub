@@ -1,0 +1,171 @@
+@font-face {
+  font-family: proximaNona;
+  src: url(../fonts/ProximaNova-Reg.otf);
+}
+
+@font-face {
+  font-family: proximaNona-extrabold;
+  src: url(../fonts/ProximaNova-Extrabold.otf);
+}
+
+* {
+  font-family: "proximaNona";
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #1194f6;
+  text-decoration: none;
+}
+body {
+  background-color: #23123a;
+}
+nav {
+  width: 100%;
+  background-color: #ffffff;
+}
+nav ul {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+nav ul li {
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+header {
+  position: relative;
+  background-image: url("../img/header-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 15vw;
+  min-height: 45vw;
+}
+
+header h1 {
+  font-family: "proximaNona-extrabold";
+  color: #fff;
+  font-size: 102px;
+  position: absolute;
+  top: 4rem;
+  left: 7rem;
+}
+
+section {
+  background-color: #f1f5f8;
+  padding: 3rem;
+}
+
+section .card {
+  padding: 2rem 3.5rem;
+  background-color: #ffffff;
+}
+section h2 {
+  font-size: 30pt;
+  font-weight: bold;
+  margin-bottom: 30pt;
+}
+section .card .card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .card .card-head .card-title {
+  font-size: 20pt;
+  line-height: 20pt;
+}
+section .card .card-body {
+  display: grid;
+  grid-template-columns: 1fr 2.2fr;
+  padding: 1rem 0rem;
+  gap: 4rem;
+  row-gap: 1rem;
+}
+
+section .card .card-action {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1.5rem;
+}
+
+section .card .card-img img {
+  width: 100%;
+  height: auto;
+}
+
+section .card .card-action .card-approval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15pt;
+  line-height: 20pt;
+}
+
+section .card .card-action .card-approval p {
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
+}
+
+section .card .card-action .card-approval .badge {
+  font-size: 15pt;
+  font-weight: bold;
+  border-radius: 30px;
+  background-color: #59d8d1;
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 24pt;
+  padding: 0.2rem 1rem;
+  white-space: nowrap;
+}
+
+section .card .card-body button {
+  background-color: #fa6e3d;
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  grid-column: 1 / 3;
+  line-height: 24pt;
+  font-size: 15pt;
+  font-weight: bold;
+  padding: 0.41rem;
+  grid-column: 1;
+}
+
+section .card .card-body .card-content ul li {
+  font-size: 18pt;
+  line-height: 34pt;
+}
+
+section .card .card-head .card-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+section .card .card-head .card-rating ul {
+  display: flex;
+  list-style: none;
+}
+section .card .card-head .card-rating .material-icons {
+  color: #59d8d1;
+}
+
+section .card .card-footer {
+  border: none;
+  border-top: 2px solid #7f949c;
+}
+section .card .card-footer a {
+  font-size: 18pt;
+  line-height: 34pt;
+}
